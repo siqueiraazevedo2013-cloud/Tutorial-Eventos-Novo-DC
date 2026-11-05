@@ -58,7 +58,8 @@ O sistema confirmará a finalização com sucesso.
 
 ## Cancelamento de Evento de Suspensão
 
-É possível cancelar o evento de suspensão.
+!!! warning "Atenção"
+    É possível cancelar o evento de suspensão.
 
 **Passo 7:** Para cancelar um evento de suspensão, na aba Contratações em Andamento na página inicial do Novo DC, encontre a contratação desejada, clique nos 3 pontinhos e depois em “Cancelar suspensão”. 
 
