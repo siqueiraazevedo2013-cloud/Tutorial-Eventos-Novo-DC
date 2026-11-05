@@ -19,7 +19,7 @@ Eventos de alteração podem ser realizados nos seguintes momentos:
 - **Licitações eletrônicas e dispensa eletrônica:** antes da abertura da disputa.
 
 !!! note "Nota"
-    **O que pode ser alterado neste tipo de evento:** As alterações dependem do tipo de contratação. Os campos passíveis de alteração ficarão habilitados no Compras.gov.br e os campos que não podem ser alterados ficarão inacessíveis ao usuário.
+    O que pode ser alterado neste tipo de evento: as alterações dependem do tipo de contratação. Os campos passíveis de alteração ficarão habilitados no Compras.gov.br e os campos que não podem ser alterados ficarão inacessíveis ao usuário.
 
 ---
 
@@ -73,4 +73,52 @@ O sistema confirmará que seu evento foi iniciado.
 
 ![Tela 29](Imagens/tela-29.png)
 
-**Passo 10:** Na aba “Responsáveis”,
+**Passo 10:** Na aba “Responsáveis”, podem ser adicionados ou excluídos responsáveis pela contratação. 
+
+![Tela 30](Imagens/tela-30.png)
+
+**Passo 11:** Para finalizar o evento de alteração, clique em “Concluir”. 
+
+![Tela 31](Imagens/tela-31.png)
+
+**Passo 12:** Para divulgar seu evento de alteração, clique em “Divulgar a contratação”. 
+
+![Tela 32](Imagens/tela-32.png)
+
+A próxima tela mostrará o ID da contratação no PNCP. Não se preocupe, ele permanece o mesmo da contratação original. 
+
+![Tela 33](Imagens/tela-33.png)
+
+Pronto! O evento de alteração da contratação foi realizado. 
+
+No PNCP, seus eventos de alteração ficarão registrados no histórico do processo com a data e a hora em que o evento foi publicado. 
+
+![Tela 34](Imagens/tela-34.png)
+
+---
+
+## Cancelamento do Evento de Alteração antes da Publicação
+
+Caso não seja mais necessária a complementação ou a correção das informações da contratação direta divulgada, é possível cancelar o Evento de Alteração antes de sua publicação no PNCP. 
+
+Para interromper a inclusão do evento de alteração antes de sua publicação no PNCP e recuperar a versão anterior da sua contratação, na aba “Contratações da Minha UASG” clique no ícone “Cancelar evento de alteração”. Este botão permite que sua versão divulgada seja restaurada. Todas as alterações NÃO publicadas serão perdidas. 
+
+![Tela 35](Imagens/tela-35.png)
+
+!!! warning "Atenção"
+    Só é possível o cancelamento nos casos em que o evento de alteração não tenha sido publicado no PNCP.
+
+Confirme o cancelamento do evento de alteração. 
+
+![Tela 36](Imagens/tela-36.png)
+
+Pronto! Seu evento de alteração foi cancelado. 
+
+![Tela 37](Imagens/tela-37.png)
+
+<br>
+<div style="text-align: right; margin: 10px 0;">
+  <button onclick="window.print()" style="background-color: #0056b3; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+    🖨️ Imprimir ou baixar esta página
+  </button>
+</div>
