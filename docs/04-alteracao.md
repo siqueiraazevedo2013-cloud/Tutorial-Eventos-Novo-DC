@@ -19,7 +19,8 @@ Eventos de alteração podem ser realizados nos seguintes momentos:
 - **Licitações eletrônicas e dispensa eletrônica:** antes da abertura da disputa.
 
 !!! note "Nota"
-    **O que pode ser alterado neste tipo de evento**: as alterações dependem do tipo de contratação. Os campos passíveis de alteração ficarão habilitados no Compras.gov.br e os campos que não podem ser alterados ficarão inacessíveis ao usuário.
+    **O que pode ser alterado neste tipo de evento**:<br>
+    As alterações dependem do tipo de contratação. Os campos passíveis de alteração ficarão habilitados no Compras.gov.br e os campos que não podem ser alterados ficarão inacessíveis ao usuário.
 
 ---
 
