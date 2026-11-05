@@ -79,7 +79,8 @@ O sistema confirmará finalização com sucesso.
 
 ## Cancelamento de Evento de Anulação ou Revogação
 
-É possível cancelar o evento de anulação ou revogação de item. Na contratação desejada localizada em Contratações Encerradas na página inicial do Novo DC, clique nos três pontos e selecione “Anular/revogar”. 
+!!! warning "Atenção"
+**É possível cancelar o evento de anulação ou revogação de item**. Na contratação desejada, localizada em Contratações Encerradas na página inicial do Novo DC, clique nos três pontos e selecione “Anular/revogar”. 
 
 ![Tela 04 2](Imagens/tela-04-2.png)
 
