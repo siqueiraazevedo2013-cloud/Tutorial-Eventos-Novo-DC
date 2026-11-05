@@ -1,0 +1,24 @@
+site_name: Eventos no Novo DC - Agente de Contratação
+
+theme:
+ name: readthedocs
+
+markdown_extensions:
+ - md_in_html
+ - admonition
+
+nav:
+ - Início: index.md
+ - 1. Introdução Geral: 01-introducao-geral.md
+ - 2. Anulação e Revogação: 02-anulacao-revogacao.md
+ - 3. Suspensão: 03-suspensao.md
+ - 4. Alteração: 04-alteracao.md
+ - 🖨️ Versão Completa para Impressão: manual-completo.md
+
+extra_css:
+ - custom.css
+ - css/extra.css
+
+extra_javascript:
+ - js/custom.js
+ - js/font-size.js
