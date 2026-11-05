@@ -106,7 +106,7 @@ Para interromper a inclusão do evento de alteração antes de sua publicação 
 
 ![Tela 35](Imagens/tela-35.png)
 
-!!! warning "Atenção"
+!!! note "Nota"
     Só é possível o cancelamento nos casos em que o evento de alteração não tenha sido publicado no PNCP.
 
 Confirme o cancelamento do evento de alteração. 
