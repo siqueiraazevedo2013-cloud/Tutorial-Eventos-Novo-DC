@@ -1,4 +1,4 @@
-/* Limita a largura máxima do texto em monitores para conforto visual e centraliza o bloco */
+/* Limita a largura máxima do texto em monitores para conforto visual */
 .wy-nav-content, main, .md-content {
   max-width: 820px !important;
   margin-left: auto !important;
@@ -13,8 +13,21 @@
   }
 }
 
-/* Melhora o espaçamento das linhas e o contraste do texto */
+/* Melhora a acessibilidade, leitura e alinhamento do texto */
 body, .md-content, .wy-nav-content {
   line-height: 1.65 !important;
   color: #212529 !important;
+}
+
+/* Justifica os parágrafos, listas e textos dentro de caixas de aviso (admonitions) */
+.wy-nav-content p, 
+.rst-content p, 
+.md-content p,
+.wy-nav-content li, 
+.rst-content li, 
+.md-content li,
+.admonition p,
+.rst-content .admonition p,
+.md-content .admonition p {
+  text-align: justify !important;
 }
