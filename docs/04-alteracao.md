@@ -99,7 +99,8 @@ No PNCP, seus eventos de alteração ficarão registrados no histórico do proce
 
 ## Cancelamento do Evento de Alteração antes da Publicação
 
-Caso não seja mais necessária a complementação ou a correção das informações da contratação direta divulgada, é possível cancelar o Evento de Alteração antes de sua publicação no PNCP. 
+!!! warning "Atenção"
+    Caso não seja mais necessária a complementação ou a correção das informações da contratação direta divulgada, é possível cancelar o Evento de Alteração **antes de sua publicação no PNCP**. 
 
 Para interromper a inclusão do evento de alteração antes de sua publicação no PNCP e recuperar a versão anterior da sua contratação, na aba “Contratações da Minha UASG” clique no ícone “Cancelar evento de alteração”. Este botão permite que sua versão divulgada seja restaurada. Todas as alterações NÃO publicadas serão perdidas. 
 
