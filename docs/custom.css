@@ -1,17 +1,17 @@
-/* Aplica bordas arredondadas, contorno fino e sombra em todas as telas do manual */
-.rst-content img, .md-content img, .wy-nav-content img {
+/* Estilo padronizado das imagens: contorno, bordas arredondadas e sombra destacada */
+.rst-content img, .md-content img, .wy-nav-content img, article img {
   width: 100% !important;
   max-width: 100% !important;
   height: auto !important;
   display: block;
   margin: 28px auto !important;
   
-  /* Linha fina de contorno cinza claro */
-  border: 1px solid #d1d5db;
+  /* Linha fina cinza */
+  border: 1px solid #d1d5db !important;
   
-  /* Cantos arredondados (ajuste para 10px ou 12px se quiser mais curvo) */
-  border-radius: 10px;
+  /* Cantos arredondados */
+  border-radius: 10px !important;
   
-  /* Sombra suave para dar destaque em relação ao fundo branco */
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  /* Sombra bem definida e destacada do fundo branco */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15) !important;
 }
