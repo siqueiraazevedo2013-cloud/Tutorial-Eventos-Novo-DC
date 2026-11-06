@@ -1,17 +1,6 @@
-/* Estilo padronizado das imagens: contorno, bordas arredondadas e sombra destacada */
+/* Aplica linha de borda, cantos arredondados e sombra em todas as imagens */
 .rst-content img, .md-content img, .wy-nav-content img, article img {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-  display: block;
-  margin: 28px auto !important;
-  
-  /* Linha fina cinza */
-  border: 1px solid #d1d5db !important;
-  
-  /* Cantos arredondados */
-  border-radius: 10px !important;
-  
-  /* Sombra bem definida e destacada do fundo branco */
-  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.70) !important;
+  border: 1px solid #d1d5db !important; /* Espessura (1px), estilo (solid) e cor (#d1d5db) */
+  border-radius: 8px !important;       /* Curvatura dos cantos */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important; /* Sombra opcional para destaque */
 }
