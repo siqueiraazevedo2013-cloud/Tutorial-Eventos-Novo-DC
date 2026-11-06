@@ -1,0 +1,17 @@
+/* Aplica bordas arredondadas, contorno fino e sombra em todas as telas do manual */
+.rst-content img, .md-content img, .wy-nav-content img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 28px auto !important;
+  
+  /* Linha fina de contorno cinza claro */
+  border: 1px solid #d1d5db;
+  
+  /* Cantos arredondados (ajuste para 10px ou 12px se quiser mais curvo) */
+  border-radius: 10px;
+  
+  /* Sombra suave para dar destaque em relação ao fundo branco */
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
