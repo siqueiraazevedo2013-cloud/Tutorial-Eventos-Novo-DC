@@ -1,6 +1,6 @@
 /* Aplica linha de borda, cantos arredondados e sombra em todas as imagens */
 .rst-content img, .md-content img, .wy-nav-content img, article img {
-  border: 1px solid #d1d5db !important; /* Espessura (1px), estilo (solid) e cor (#d1d5db) */
-  border-radius: 8px !important;       /* Curvatura dos cantos */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important; /* Sombra opcional para destaque */
+  border: 1px solid #d1d5db !important; /* Espessura (5px), estilo (solid) e cor (#5a5c5e) */
+  border-radius: 10px !important;       /* Curvatura dos cantos */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.30) !important; /* Sombra opcional para destaque */
 }
