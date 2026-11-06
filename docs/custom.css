@@ -1,20 +1,62 @@
-/* Limita a largura máxima do texto em monitores e centraliza o bloco principal */
-.wy-nav-content, main, .md-content {
+/* ==========================================================================
+   ESTILOS DE CENTRALIZAÇÃO E LAYOUT (docs/custom.css)
+   ========================================================================== */
+
+/* 1. Limita a largura da caixa principal e centraliza horizontalmente na tela */
+.wy-nav-content {
   max-width: 820px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  background: #ffffff !important;
 }
 
-/* Em celulares e telas pequenas, ajusta para 100% da largura útil */
+/* 2. Permite que o bloco de conteúdo interno ocupe a largura limitada */
+.rst-content, .md-content, main {
+  max-width: 100% !important;
+}
+
+/* 3. Ajuste responsivo para celulares e dispositivos móveis */
 @media screen and (max-width: 768px) {
-  .wy-nav-content, main, .md-content {
+  .wy-nav-content {
     max-width: 100% !important;
-    padding: 10px !important;
+    margin: 0 !important;
+    padding: 15px !important;
   }
 }
 
-/* Melhora o espaçamento das linhas e o contraste do texto */
+/* 4. Padronização visual das imagens (contorno fino, bordas arredondadas e sombra) */
+.rst-content img, .md-content img, .wy-nav-content img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 28px auto !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 10px !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15) !important;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.rst-content img:hover, .md-content img:hover {
+  transform: scale(1.01);
+}
+
+/* 5. Conforto de leitura e contraste */
 body, .md-content, .wy-nav-content {
   line-height: 1.65 !important;
   color: #212529 !important;
+}
+
+/* 6. Quebra de linha adequada nos itens do menu lateral */
+.wy-menu-vertical p.caption,
+.wy-menu-vertical span.caption-text,
+.wy-menu-vertical a {
+  white-space: normal !important;
+  word-wrap: break-word !important;
+  line-height: 1.4 !important;
+}
+
+.wy-menu-vertical p.caption {
+  margin-bottom: 8px !important;
 }
