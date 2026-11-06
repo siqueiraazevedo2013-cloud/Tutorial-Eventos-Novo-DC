@@ -1,33 +1,6 @@
-/* Limita a largura máxima do texto em monitores para conforto visual */
-.wy-nav-content, main, .md-content {
-  max-width: 820px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* Em celulares e telas pequenas, ajusta para 100% da largura útil */
-@media screen and (max-width: 768px) {
-  .wy-nav-content, main, .md-content {
-    max-width: 100% !important;
-    padding: 10px !important;
-  }
-}
-
-/* Melhora a acessibilidade, leitura e alinhamento do texto */
-body, .md-content, .wy-nav-content {
-  line-height: 1.65 !important;
-  color: #212529 !important;
-}
-
-/* Justifica os parágrafos, listas e textos dentro de caixas de aviso (admonitions) */
-.wy-nav-content p, 
-.rst-content p, 
-.md-content p,
-.wy-nav-content li, 
-.rst-content li, 
-.md-content li,
-.admonition p,
-.rst-content .admonition p,
-.md-content .admonition p {
-  text-align: justify !important;
+/* Aplica linha de borda, cantos arredondados e sombra em todas as imagens */
+.rst-content img, .md-content img, .wy-nav-content img, article img {
+  border: 1px solid #d1d5db !important; /* Espessura (1px), estilo (solid) e cor (#d1d5db) */
+  border-radius: 8px !important;       /* Curvatura dos cantos */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important; /* Sombra opcional para destaque */
 }
